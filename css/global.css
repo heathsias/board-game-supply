@@ -1,0 +1,27 @@
+/* header.css */
+
+body
+{
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: large;
+  color: #000;
+  background-color: rgba(85, 255, 0, 0.32); /* Light Green */
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  color: #00F; /* Blue */
+}
+
+ul,ol
+{
+  font-style: italic;
+}
+
+/*
+a
+{
+  background-color: #00F;
+  color: #FFF;
+}
+*/
