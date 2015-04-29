@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--about.shtml-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <title>About Us</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+  </head>
+
+  <body>
+		<div class="Page">
+			<!--#include virtual="common/header.ssi"-->
+
+			<div class="MainContent">
+				<h5>Home -> About</h5>
+				<p>
+          Nathan has been tabletop gaming since he was 0 years old (maybe before).
+          Heath likes tabletop games, too, and wishes he had more time to play them.
+				</p>
+
+      </div>
+			<!--#include virtual="common/footer.ssi"-->
+		</div>
+	</body>
+</html>

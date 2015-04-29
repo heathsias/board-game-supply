@@ -1,11 +1,10 @@
-/* header.css */
+/* global.css */
 
 body
 {
   font-family: Calibri, Helvetica, sans-serif;
   font-size: large;
-  color: #000;
-  background-color: rgba(85, 255, 0, 0.32); /* Light Green */
+  background-color: lime;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -13,15 +12,75 @@ h1,h2,h3,h4,h5,h6
   color: #00F; /* Blue */
 }
 
-ul,ol
-{
-  font-style: italic;
-}
-
-/*
 a
 {
-  background-color: #00F;
-  color: #FFF;
+  text-decoration: none;
+  text-align: right;
 }
-*/
+
+.Page
+{
+  border: 10px solid lime;
+}
+
+.MainContent
+{
+  clear: both;
+}
+
+.GameCategory
+{
+  width: 260px;
+  border: 20px solid lime;
+  float: left;
+  margin: 0 auto;
+}
+
+.MainLinks
+{
+  display: inline-block;
+  width: 10em;
+  text-align: right;
+}
+
+.ProductHeading
+{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+div#logo
+{
+  float: left;
+}
+
+div#toplinks
+{
+  float: right;
+}
+
+div#footertext
+{
+  clear: left;
+}
+
+div#bottomlinks
+{
+  float: right;
+}
+
+div#page
+{
+  border: 20px solid pink;
+  background-color: lime;
+}
+
+img#GameImage
+{
+  background-color: red;
+}
+
+input#purchase
+{
+  float: right;
+}

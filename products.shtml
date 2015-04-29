@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--products.shtml-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>MOG Products</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/global.css" />
+		<script type="text/javascript" src="scripts/products.js"></script>
+	</head>
+
+	<body>
+		<div class="Page">
+			<!--#include virtual="common/header.ssi"-->
+
+			<div class="MainContent">
+				<h5>Home -> Products</h5>
+
+				<div class="ProductList">
+					<dl>
+						<span class="ProductHeading" <dt>Magic: The Gathering</dt></span>
+						<dd>Coming soon</dd>
+					</dl>
+				</div>
+
+				<div class="ProductList">
+					<dl>
+						<span class="ProductHeading" <dt>Warhammer: 40k</dt></span>
+						<dd>Coming soon</dd>
+					</dl>
+				</div>
+
+				<div class="ProductList">
+					<dl>
+						<span class="ProductHeading" <dt>Dungeons &amp; Dragons</dt></span>
+						<dd>Coming soon</dd>
+					</dl>
+				</div>
+
+				<div class="ProductList">
+					<span class="ProductHeading" <dt>Accessories</span>
+					<form id="mogTee" action="" onsubmit="addProduct('mogTee')">
+							<fieldset>
+								<h3>Merchant of Games T-Shirt</h3>
+								<p>
+									These t-shirts are made from the softest elf-hide in the lower 48.
+									Not only are they guaranteed not to shrink, they also grant
+									the wearer night vision once per day for d4 x 60 secs. Amazing.
+								</p>
+								M.O.G. Tee&nbsp;&nbsp;
+								<select name="size">
+									<option>Small</option>
+									<option>Medium</option>
+									<option>Large</option>
+								</select>&nbsp;&nbsp;
+								Quantity:
+								<input type="text" name="quantity" size="2" />
+								<input id="purchase" type="submit" name="addToCart" value="add to cart" />
+							</fieldset>
+					</form>
+				</div>
+
+			</div>
+			<!--#include virtual="common/footer.ssi"-->
+		</div>
+	</body>
+</html>

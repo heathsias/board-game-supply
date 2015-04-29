@@ -1,0 +1,9 @@
+<!--footer.ssi-->
+<div id="footertext">
+  Merchant of Games&trade; 2015 Heath Sias and Nathan Stengel
+</div>
+
+<div id="bottomlinks">
+  <a class="MainLinks" href="about.shtml">About Us</a>
+  <a class="MainLinks" href="contact.shtml">Contact</a>
+</div>
