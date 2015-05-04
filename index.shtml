@@ -25,14 +25,14 @@
 	  		</p>
 
 				<div class="GameCategory">
-	    		<img class="GameImage" src="images/ccg.jpg" alt="Collectible Card Game" />
+	    		<img class="GameImage" src="images/ccg.jpg" alt="Collectible Card Game" width="318"/>
 					<ul>
 						<li><a href="products.shtml">Magic: The Gathering</a></li>
 					</ul>
 				</div>
 
 				<div class="GameCategory">
-	    		<img class="GameImage" src="images/ttg.jpg" alt="Tabletop Game" />
+	    		<img class="GameImage" src="images/ttg.jpg" alt="Tabletop Game" width="318"/>
 					<ul>
 						<li><a href="products.shtml">Warhammer 40,000</a></li>
 						<li>WARMACHINE</li>
@@ -40,7 +40,7 @@
 				</div>
 
 				<div class="GameCategory">
-	    		<img class="GameImage" src="images/rpg.jpg" alt="Roleplaying Game" />
+	    		<img class="GameImage" src="images/rpg.jpg" alt="Roleplaying Game" width="318"/>
 					<ul>
 						<li><a href="products.shtml">Dungeons &amp; Dragons</a></li>
 						<li>Pathfinder</li>
@@ -48,7 +48,7 @@
 				</div>
 
 				<div class="GameCategory">
-	    		<img class="GameImage" src="images/acc.jpg" alt="Game Accessories" />
+	    		<img class="GameImage" src="images/acc.jpg" alt="Game Accessories" width="318"/>
 					<ul>
 						<li><a href="products.shtml">Dice</a></li>
 						<li><a href="products.shtml">Mats</a></li>

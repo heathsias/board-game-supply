@@ -18,31 +18,12 @@
 				<h5>Home -> Products</h5>
 
 				<div class="ProductList">
-					<dl>
-						<span class="ProductHeading" <dt>Magic: The Gathering</dt></span>
-						<dd>Coming soon</dd>
-					</dl>
-				</div>
-
-				<div class="ProductList">
-					<dl>
-						<span class="ProductHeading" <dt>Warhammer: 40k</dt></span>
-						<dd>Coming soon</dd>
-					</dl>
-				</div>
-
-				<div class="ProductList">
-					<dl>
-						<span class="ProductHeading" <dt>Dungeons &amp; Dragons</dt></span>
-						<dd>Coming soon</dd>
-					</dl>
-				</div>
-
-				<div class="ProductList">
 					<span class="ProductHeading" <dt>Accessories</span>
 					<form id="mogTee" action="" onsubmit="addProduct('mogTee')">
 							<fieldset>
-								<h3>Merchant of Games T-Shirt</h3>
+								<hr />
+
+								<h3>Merchant of Games T-Shirt - $9.99</h3>
 								<p>
 									These t-shirts are made from the softest elf-hide in the lower 48.
 									Not only are they guaranteed not to shrink, they also grant
@@ -50,13 +31,56 @@
 								</p>
 								M.O.G. Tee&nbsp;&nbsp;
 								<select name="size">
+									<option>X-Small</option>
 									<option>Small</option>
 									<option>Medium</option>
+									<option>X-Medium</option>
 									<option>Large</option>
+									<option>X-Large</option>
 								</select>&nbsp;&nbsp;
 								Quantity:
 								<input type="text" name="quantity" size="2" />
-								<input id="purchase" type="submit" name="addToCart" value="add to cart" />
+								<hr />
+
+								<h3>Merchant of Games Travel Mug - $7.99</h3>
+								<p>
+									This mug will never spill its contents, as long as you keep it
+									totally upright and/or don't put anything in it. Astounding.
+								</p>
+								M.O.G. Mug&nbsp;&nbsp;
+								<select name="size">
+									<option>12 oz.</option>
+									<option>22 oz.</option>
+									<option>40 oz.</option>
+								</select>&nbsp;&nbsp;
+								Quantity:
+								<input type="text" name="quantity" size="2" />
+								<hr />
+
+								<h3>Merchant of Games Dice - $4.99</h3>
+								<p>
+									These dice are so chock-full of numbers, there's not even any
+									room for the Merchant of Game's logo on them. Wait, our logo IS
+									a die. Mind blown.
+								</p>
+								M.O.G. Dice&nbsp;&nbsp;
+								<select name="size">
+									<option>Silver</option>
+									<option>Gold</option>
+									<option>Space Grey</option>
+								</select>&nbsp;&nbsp;
+								Quantity:
+								<input type="text" name="quantity" size="2" />
+								<hr /><br />
+
+								<input id="purchase" type="submit" name="purchase" value="Buy Now" />
+							</fieldset>
+							<br />
+							<fieldset>
+								<h2>Coming Soon...<h2>
+									<h3>Collectible Card Games!</h3>
+									<h3>Tabletop Games!</h3>
+									<h3>Roleplaying Games!</h3>
 							</fieldset>
 					</form>
 				</div>
