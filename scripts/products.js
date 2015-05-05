@@ -38,11 +38,19 @@ function processProductForm()
   // total cost
   if (everythingOK)
   {
-    /* display for each item: summary, cost, total cost
-       then display: total cost
-    */
+    var summaryMessage = "Summary of your order:\n----------------------------------------------------------------------";
+    var orderTotal = 0.0;
+    for (var i = 0; i < quantities.length; ++i)
+    {
+      if (quantities[i].length > 0)
+      {
+        summaryMessage += "\n$" + (prices[i] * quantities[i]).toFixed(2) + "  " + quantities[i] + " x " + descriptions[i] + "\n";
+        orderTotal += (prices[i] * quantities[i]);
+      }
+    }
+    summaryMessage += "----------------------------------------------------------------------\nOrder Total: $" + orderTotal.toFixed(2);
+    alert(summaryMessage);
 
-    alert("Added to cart!");
     return true;
   }
 
@@ -53,12 +61,18 @@ function processProductForm()
 
 function validateQuantities(quantities)
 {
+  var numItems = 0;
   for (var i = 0; i < quantities.length; ++i)
   {
     if (isNaN(quantities[i]))
     {
       return false;
     }
+
+    if (quantities[i].length > 0)
+    {
+      numItems++;
+    }
   }
-  return true;
+  return numItems > 0;
 }
