@@ -1,6 +1,3 @@
-AddType text/html .shtml
-AddHandler server-parsed .html
-AddHandler server-parsed .shtml
-Options Indexes FollowSymLinks Includes
-Options -Indexes +ExecCGI
-AddHandler cgi-script .cgi .pl .py
+Options +Includes
+AddType text/html .php
+AddOutputFilter INCLUDES .php

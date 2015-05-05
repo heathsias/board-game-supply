@@ -8,7 +8,6 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta http-equiv="refresh" content="60" />
     <link rel="stylesheet" type="text/css" href="css/global.css" />
-    <script type="text/javascript" src="scripts/contact.js"></script>
   </head>
 
   <body>
@@ -24,7 +23,7 @@
 				</div>
 
         <!--Contact form goes here-->
-        <form id="contactForm" action="" onsubmit="validateContactForm()">
+        <form id="contactForm" action="scripts/processFeedback.php" method="post" onsubmit="return validateContactForm()">
           <fieldset>
             <legend>Contact us</legend><br />
             Name:<br />
@@ -45,5 +44,6 @@
 			include("common/footer.html");
 			?>
 		</div>
+    <script type="text/javascript" src="scripts/contact.js"></script>
 	</body>
 </html>

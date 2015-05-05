@@ -24,9 +24,10 @@
 
 				<div class="ProductList">
 					<span class="ProductHeading">Accessories</span>
-					<form id="productForm" action="" onsubmit="processProductForm()">
+					<form id="productForm" action="scripts/processPurchase.php" method="post" onsubmit="return processProductForm()">
 						<fieldset>
 							<h3 id="teeDescription">Merchant of Games (M.O.G.) T-Shirt</h3>
+							<input type="hidden" name="teeDescription" value="Merchant of Games (M.O.G.) T-Shirt">
 							<p>
 								These t-shirts are made from the softest elf-hide in the lower 48.
 								Not only are they guaranteed not to shrink, they also grant
@@ -34,6 +35,7 @@
 							</p>
 							M.O.G. Tee &nbsp;
 							$<span id="teePrice">10.00</span>
+							<input type="hidden" name="teePrice" value="10.00">
 							&nbsp;&nbsp;
 							<select name="teeStyle">
 								<option>X-Small</option>
@@ -48,12 +50,14 @@
 							<div><hr /></div>
 
 							<h3 id="mugDescription">Merchant of Games (M.O.G.) Travel Mug</h3>
+							<input type="hidden" name="mugDescription" value="Merchant of Games (M.O.G.) Mug">
 							<p>
 								This mug will never spill its contents, so long as you keep it
 								perfectly upright and/or don't put anything in it. Astounding.
 							</p>
 							M.O.G. Mug &nbsp;
 							$<span id="mugPrice">7.50</span>
+							<input type="hidden" name="mugPrice" value="7.50">
 							&nbsp;&nbsp;
 							<select name="mugStyle">
 								<option>12 oz.</option>
@@ -65,6 +69,7 @@
 							<div><hr /></div>
 
 							<h3 id="diceDescription">Merchant of Games (M.O.G.) Dice</h3>
+							<input type="hidden" name="diceDescription" value="Merchant of Games (M.O.G.) Dice">
 							<p>
 								These dice are so chock-full of numbers, there's not even any
 								room for the Merchant of Games logo on them. Wait, our logo IS
@@ -72,6 +77,7 @@
 							</p>
 							M.O.G. Dice &nbsp;
 							$<span id="dicePrice">5.00</span>
+							<input type="hidden" name="dicePrice" value="5.00">
 							&nbsp;&nbsp;
 							<select name="diceStyle">
 								<option>Silver</option>
@@ -81,9 +87,12 @@
 							Quantity:
 							<input type="text" name="diceQuantity" size="2" />
 							<div><hr /><br /></div>
-
+							Purchaser's Name:<br />
+							<input class="buyerInfo" type="text" name="name" size="30" /><br /><br />
+							Purchaser's Email:<br />
+							<input class="buyerInfo" type="text" name="email" size="30" /><br /><br />
 							<input id="purchase" type="submit" value="Buy Now" />
-							<input id="purchase" type="reset" value="Reset" />
+							<input id="reset" type="reset" value="Reset" />
 						</fieldset>
 						<div><br /></div>
 						<fieldset>

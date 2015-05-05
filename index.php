@@ -6,7 +6,7 @@
 	<head>
 		<title>Merchant of Games</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-		<meta http-equiv="refresh" content="60" />
+		<meta http-equiv="refresh" content="30" />
 		<link rel="stylesheet" type="text/css" href="css/global.css" />
 	</head>
 
@@ -25,14 +25,13 @@
 
 				<div id=datetime>
 					<?php
-					echo "<h3>Today is ".date("l, F jS").".<br />";
+					echo "<h3>It is ".date("l, F jS, g:i A").".<br /></h3>";
 					?>
 				</div>
 
 				<p id="intro_text">
 					Welcome to Merchant of Games! We supply tabletop gamers everywhere, be they wargamers, roleplayers,
-					boardgamers, or cardmongers, with the supplies they need to take over
-					the world.<br />
+					boardgamers, or cardmongers, with the supplies they need to take over the world.<br />
 	        <br />
 	  		</p>
 

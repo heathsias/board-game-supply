@@ -69,6 +69,11 @@ a
   clear: both;
 }
 
+.buyerInfo
+{
+  clear: both;
+}
+
 p#intro_text
 {
   clear:both;
@@ -127,6 +132,11 @@ form#contactForm
 }
 
 input#purchase
+{
+  float: right;
+}
+
+input#reset
 {
   float: right;
 }

@@ -23,8 +23,18 @@
 				</div>
 				<p id="aboutus">
           <h4>"Supplies for gamers, by gamers, for gamers, by gamers ... for gamers"</h4>
-          Nathan has been tabletop gaming since he was 0 years old (maybe before).
-          Heath likes tabletop games, too, and wishes he had more time to play them.
+          Nathan was born at an early age and has been tabletop gaming ever since.
+          Heath likes tabletop games, too, and wishes he had more time to play them.<br />
+          <br />
+          Merchant of Games was formed by a mutual desire to make tons of money selling
+          low-margin products to a handful of rabid gamers in Orange County. They also
+          had to create a website for an Internet Applications course.<br />
+          <br />
+          We hope to continue updating the site until such time that is looks like it
+          was made in the last decade. In any case, we've had fun making it and that's
+          the important thing.<br />
+          <br />
+          Cheers!
 				</p>
 
       </div>
