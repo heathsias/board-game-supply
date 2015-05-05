@@ -39,7 +39,7 @@ for ($i=0; $i < count($quantities); ++$i)
 {
   if ($quantities[$i])
   {
-    $orderSummaryMessage .= "$".sprintf("%0.2f",round(($prices[$i] * $quantities[$i]),2))."  ".$quantities[$i]." x ".$descriptions[$i]."\r\n";
+    $orderSummaryMessage .= "$".sprintf("%0.2f",round(($prices[$i] * $quantities[$i]),2))."  ".$quantities[$i]." x ".$styles[$i]." ".$descriptions[$i]."\r\n";
     $orderTotal = $orderTotal + ($prices[$i] * $quantities[$i]);
   }
 }

@@ -20,6 +20,10 @@ function processProductForm()
   var dicePrice = document.getElementById("dicePrice").innerHTML;
   var diceQuantity = productFormObj.diceQuantity.value;
 
+  // get user data
+  var name = productFormObj.name.value;
+  var email = productFormObj.email.value;
+
   var descriptions = [teeDescription, mugDescription, diceDescription];
   var styles = [teeStyle, mugStyle, diceStyle];
   var prices = [teePrice, mugPrice, dicePrice];
@@ -33,25 +37,37 @@ function processProductForm()
     everythingOK = false;
   }
 
+  // validate name
+  else if (!validateName(name))
+  {
+    alert("Error: Invalid name.");
+    everythingOK = false;
+  }
+
+  // validate email address
+  else if (!validateEmail(email))
+  {
+    alert("Error: Invalid email address.");
+    everythingOK = false;
+  }
+
   // everything checks out. Display info as alert:
   // for each item: quantity, style, description, total item cost
   // total cost
   if (everythingOK)
   {
-    var summaryMessage = "Summary of your order:\n----------------------------------------------------------------------";
+    var summaryMessage = "Place Order?\n----------------------------------------------------------------------";
     var orderTotal = 0.0;
     for (var i = 0; i < quantities.length; ++i)
     {
-      if (quantities[i].length > 0)
+      if (quantities[i].length > 0 && quantities[i] > 0)
       {
-        summaryMessage += "\n$" + (prices[i] * quantities[i]).toFixed(2) + "  " + quantities[i] + " x " + descriptions[i] + "\n";
+        summaryMessage += "\n$" + (prices[i] * quantities[i]).toFixed(2) + "  " + quantities[i] + " x " + styles[i] + " " + descriptions[i] + "\n";
         orderTotal += (prices[i] * quantities[i]);
       }
     }
     summaryMessage += "----------------------------------------------------------------------\nOrder Total: $" + orderTotal.toFixed(2);
-    alert(summaryMessage);
-
-    return true;
+    return confirm(summaryMessage);
   }
 
   return false;
@@ -75,4 +91,25 @@ function validateQuantities(quantities)
     }
   }
   return numItems > 0;
+}
+
+
+function validateName(name)
+{
+  var p = name.search(/^[-'\w\s]+$/);
+  if (p != 0)
+    return false;
+  else
+    return true;
+}
+
+
+
+function validateEmail(email)
+{
+  var p = email.search(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})$/);
+  if (p != 0)
+    return false;
+  else
+    return true;
 }
