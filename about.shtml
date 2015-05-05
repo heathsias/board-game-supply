@@ -14,7 +14,10 @@
 			<!--#include virtual="common/header.ssi"-->
 
 			<div class="MainContent">
-				<h5>Home -> About</h5>
+        <div class="Breadcrumbs">
+					Home -> About
+          <br /><br />
+				</div>
 				<p>
           Nathan has been tabletop gaming since he was 0 years old (maybe before).
           Heath likes tabletop games, too, and wishes he had more time to play them.

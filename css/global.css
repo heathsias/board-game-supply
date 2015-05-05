@@ -23,6 +23,12 @@ a
   border: 10px solid lime;
 }
 
+.Breadcrumbs
+{
+  font-weight: bold;
+  float: left;
+}
+
 .MainContent
 {
   clear: both;
@@ -47,6 +53,16 @@ a
 {
   font-size: x-large;
   font-weight: bold;
+}
+
+.ProductList
+{
+  clear: both;
+}
+
+p#intro_text
+{
+  clear:both;
 }
 
 div#logo
@@ -75,9 +91,24 @@ div#page
   background-color: lime;
 }
 
+div#datetime
+{
+  clear: left;
+}
+
+p#cart
+{
+  clear: both;
+}
+
 img#GameImage
 {
   background-color: red;
+}
+
+form#contactForm
+{
+  clear: both;
 }
 
 input#purchase

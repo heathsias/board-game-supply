@@ -14,8 +14,11 @@
 			<!--#include virtual="common/header.ssi"-->
 
 			<div class="MainContent">
-				<h5>Home -> Cart</h5>
-				<p>
+        <div class="Breadcrumbs">
+					Home -> Cart
+          <br /><br />
+				</div>
+				<p id="cart">
           Coming Soon!
 				</p>
 

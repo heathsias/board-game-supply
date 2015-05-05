@@ -15,13 +15,15 @@
 			<!--#include virtual="common/header.ssi"-->
 
 			<div class="MainContent">
-				<h5>Home -> Products</h5>
+				<div class="Breadcrumbs">
+					Home -> Products
+          <br /><br />
+				</div>
 
 				<div class="ProductList">
 					<span class="ProductHeading" <dt>Accessories</span>
 					<form id="mogTee" action="" onsubmit="addProduct('mogTee')">
 							<fieldset>
-								<hr />
 
 								<h3>Merchant of Games T-Shirt - $9.99</h3>
 								<p>
@@ -44,8 +46,8 @@
 
 								<h3>Merchant of Games Travel Mug - $7.99</h3>
 								<p>
-									This mug will never spill its contents, as long as you keep it
-									totally upright and/or don't put anything in it. Astounding.
+									This mug will never spill its contents, so long as you keep it
+									perfectly upright and/or don't put anything in it. Astounding.
 								</p>
 								M.O.G. Mug&nbsp;&nbsp;
 								<select name="size">
@@ -60,7 +62,7 @@
 								<h3>Merchant of Games Dice - $4.99</h3>
 								<p>
 									These dice are so chock-full of numbers, there's not even any
-									room for the Merchant of Game's logo on them. Wait, our logo IS
+									room for the Merchant of Games logo on them. Wait, our logo IS
 									a die. Mind blown.
 								</p>
 								M.O.G. Dice&nbsp;&nbsp;
