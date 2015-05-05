@@ -1,18 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--contact.shtml-->
+<!--contact.php-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head>
     <title>About Us</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="refresh" content="60" />
     <link rel="stylesheet" type="text/css" href="css/global.css" />
     <script type="text/javascript" src="scripts/contact.js"></script>
   </head>
 
   <body>
 		<div class="Page">
-			<!--#include virtual="common/header.ssi"-->
+      <?php
+			include("common/header.html");
+			?>
 
 			<div class="MainContent">
         <div class="Breadcrumbs">
@@ -38,7 +41,9 @@
         </form>
 
       </div>
-			<!--#include virtual="common/footer.ssi"-->
+      <?php
+			include("common/footer.html");
+			?>
 		</div>
 	</body>
 </html>

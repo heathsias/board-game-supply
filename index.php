@@ -39,35 +39,31 @@
 				<div id="categoryCollection">
 
 					<div class="GameCategory">
-		    		<img class="GameImage" src="images/ccg.jpg" alt="Collectible Card Game" width="318"/>
-						<ul>
-							<li><a href="products.shtml">Magic: The Gathering</a></li>
-						</ul>
+						<a href="products.php">
+		    			<img class="GameImage" src="images/ccg.jpg" alt="Collectible Card Game" width="318"/>
+						</a>
+						<a href="products.php">Collectible Card Games</a>
 					</div>
 
 					<div class="GameCategory">
-		    		<img class="GameImage" src="images/ttg.jpg" alt="Tabletop Game" width="318"/>
-						<ul>
-							<li><a href="products.shtml">Warhammer 40,000</a></li>
-							<li>WARMACHINE</li>
-						</ul>
+						<a href="products.php">
+		    			<img class="GameImage" src="images/ttg.jpg" alt="Tabletop Game" width="318"/>
+						</a>
+						<a href="products.php">Tabletop Games</a>
 					</div>
 
 					<div class="GameCategory">
-		    		<img class="GameImage" src="images/rpg.jpg" alt="Roleplaying Game" width="318"/>
-						<ul>
-							<li><a href="products.shtml">Dungeons &amp; Dragons</a></li>
-							<li>Pathfinder</li>
-			 			</ul>
+						<a href="products.php">
+		    			<img class="GameImage" src="images/rpg.jpg" alt="Roleplaying Game" width="318"/>
+						</a>
+						<a href="products.php">Roleplaying Games</a>
 					</div>
 
 					<div class="GameCategory">
-		    		<img class="GameImage" src="images/acc.jpg" alt="Game Accessories" width="318"/>
-						<ul>
-							<li><a href="products.shtml">Dice</a></li>
-							<li><a href="products.shtml">Mats</a></li>
-							<li><a href="products.shtml">Software</a></li>
-						</ul>
+						<a href="products.php">
+		    			<img class="GameImage" src="images/acc.jpg" alt="Game Accessories" width="318"/>
+						</a>
+						<a href="products.php">Accessories</a>
 					</div>
 
 				</div>

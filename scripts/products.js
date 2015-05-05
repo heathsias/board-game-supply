@@ -13,6 +13,10 @@ function addProduct(product)
 
   if (everythingOK)
   {
+    /* display for each item: summary, cost, total cost
+       then display: total cost
+    */
+    
     alert("Added to cart!");
     return true;
   }

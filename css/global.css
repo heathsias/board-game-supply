@@ -4,7 +4,7 @@ body
 {
   font-family: Calibri, Helvetica, sans-serif;
   font-size: large;
-  background-color: lime;
+  background-color: #7fff7a;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -20,13 +20,19 @@ a
 
 .Page
 {
-  border: 10px solid lime;
+  border: 10px solid #7fff7a;
 }
 
 .Breadcrumbs
 {
+  font-size: 12px;
   font-weight: bold;
   float: left;
+}
+
+.UnderConstruction
+{
+  color: #C00;
 }
 
 .MainContent
@@ -36,8 +42,11 @@ a
 
 .GameCategory
 {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
   width: 318px;
-  border: 20px solid lime;
+  border: 20px solid #7fff7a;
   float: left;
   margin: 0 auto;
 }
@@ -82,13 +91,14 @@ div#footertext
 
 div#bottomlinks
 {
+  height: 1em;
   float: right;
 }
 
 div#page
 {
-  border: 20px solid pink;
-  background-color: lime;
+  border: 20px solid #7fff7a
+  background-color: #7fff7a;
 }
 
 div#datetime
@@ -96,14 +106,19 @@ div#datetime
   clear: left;
 }
 
-p#cart
+div#cart
+{
+  clear: both;
+}
+
+p#aboutus
 {
   clear: both;
 }
 
 img#GameImage
 {
-  background-color: red;
+  background-color: #7fff7a;
 }
 
 form#contactForm

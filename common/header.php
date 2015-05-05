@@ -1,9 +1,0 @@
-<!--header.html-->
-<div id="logo">
-  <a href="index.shtml"><img src="images/logo_MOG3.png" alt="Merchant of Games logo" /></a>
-</div>
-
-<div id="toplinks">
-  <a class="MainLinks" href="products.shtml">Products</a>
-  <a class="MainLinks" href="cart.shtml">Cart</a>
-</div>

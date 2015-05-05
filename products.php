@@ -1,18 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--products.shtml-->
+<!--products.php-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 	<head>
 		<title>MOG Products</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="refresh" content="60" />
 		<link rel="stylesheet" type="text/css" href="css/global.css" />
 		<script type="text/javascript" src="scripts/products.js"></script>
 	</head>
 
 	<body>
 		<div class="Page">
-			<!--#include virtual="common/header.ssi"-->
+			<?php
+			include("common/header.html");
+			?>
 
 			<div class="MainContent">
 				<div class="Breadcrumbs">
@@ -21,7 +24,7 @@
 				</div>
 
 				<div class="ProductList">
-					<span class="ProductHeading" <dt>Accessories</span>
+					<span class="ProductHeading">Accessories</span>
 					<form id="mogTee" action="" onsubmit="addProduct('mogTee')">
 							<fieldset>
 
@@ -79,16 +82,15 @@
 							</fieldset>
 							<br />
 							<fieldset>
-								<h2>Coming Soon...<h2>
-									<h3>Collectible Card Games!</h3>
-									<h3>Tabletop Games!</h3>
-									<h3>Roleplaying Games!</h3>
+								<h2 class="UnderConstruction">Coming Soon ... CCGs, Tabletop Games, and RPGs, oh my!<h2>
 							</fieldset>
 					</form>
 				</div>
 
 			</div>
-			<!--#include virtual="common/footer.ssi"-->
+			<?php
+			include("common/footer.html");
+			?>
 		</div>
 	</body>
 </html>
