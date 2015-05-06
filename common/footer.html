@@ -3,4 +3,15 @@
   <br />
   <hr />
   Merchant of Games&trade; 2015 Heath Sias and Nathan Stengel
+  <script type="text/javascript">
+	if (localStorage.pagecount)
+	{
+		localStorage.pagecount=Number(localStorage.pagecount) +1;
+	}
+	else
+	{
+		localStorage.pagecount=1;
+	}
+	document.write("Visits: " + localStorage.pagecount + " time(s).");
+</script>
 </div>
