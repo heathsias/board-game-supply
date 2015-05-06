@@ -1,15 +1,23 @@
 <!--header.html-->
+<script type="text/javascript" src="scripts/menu.js"></script>
+
 <div id="logo">
   <a href="index.php"><img src="images/logo_MOG3.png" alt="Merchant of Games logo" /></a>
 </div>
 
-<div id="toplinks" onmouseout="hide()">
-  <a class="MainLinks" href="products.php" onmouseover="show('m1')">Products</a>
-  <div id="m3" onmouseover="show('m1')">
-        <a href="products.php">Table Top</a>
-        <a href="products.php">CCG's</a>
-        <a href="products.php">RPG's</a>
-        <a href="products.php">Accessories</a>
+<div id="toplinks">
+  <div id="mainMenu" onmouseover="hide()">
+    <ul class="Links">
+      <li>
+        <a href="products.php" onmouseover="show('products')">Products</a></li>
+        <div id="products" onmouseover="show('products')">
+          <a href="products.php">CCG</a>
+          <a href="products.php">Tabletop</a>
+          <a href="products.php">RPG</a>
+          <a href="products.php">Accessories</a>
+        </div>
+      </li>
+    </ul>
   </div>
   <a class="MainLinks" href="about.php" onmouseover="show('m2')">About Us</a>
   <a class="MainLinks" href="contact.php" onmouseover="show('m3')">Contact</a>
