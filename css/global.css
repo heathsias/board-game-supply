@@ -140,3 +140,16 @@ input#reset
 {
   float: right;
 }
+
+.Links div {
+position: absolute;
+visibility: hidden;
+}
+
+.Links div a {
+display: block;
+width: 156px;
+padding: 5px 10px;
+text-align: left;
+text-decoration: none;
+}
