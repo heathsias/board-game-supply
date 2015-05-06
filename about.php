@@ -23,6 +23,8 @@
 				</div>
 				<p id="aboutus">
           <h4>"Supplies for gamers, by gamers, for gamers, by gamers ... for gamers"</h4>
+          About the team:<br />
+          <br />
           Nathan was born at an early age and has been gaming ever since.
           Heath likes games, too, and wishes he had more time to play them.<br />
           <br />
@@ -30,8 +32,8 @@
           low-margin products to a handful of rabid gamers in Orange County. They also
           had to create a website for an Internet Applications course.<br />
           <br />
-          We hope to continue updating the site until such time that is looks like it
-          was made in the last decade. In any case, we've had fun making it and that's
+          They hope to continue updating the site until such time that is looks like it
+          was made in the last decade. In any case, they've had fun making it and that's
           the important thing.<br />
           <br />
           Cheers!
