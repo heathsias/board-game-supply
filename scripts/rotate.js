@@ -35,5 +35,5 @@ function rotate()
 function startRotation()
 {
     document.getElementById('placeholder').src=imageArray[2];
-    setInterval('rotate()', 2000);
+    setInterval('rotate()', 5000);
 }

@@ -18,7 +18,7 @@ function show(id)
 
 //Hide the currently visible drop-down menu and set flag
 function hide()
-{       
+{
     if (isShowing) menuSelect.style.visibility = 'hidden';
     isShowing = false;
 }

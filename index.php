@@ -8,11 +8,11 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta http-equiv="refresh" content="30" />
 		<link rel="stylesheet" type="text/css" href="css/global.css" />
-		<script type="text/javascript" src="scripts/rotate.js"></script>
+		<script type="text/javascript" src="scripts/rotate.js"></script>	
 	</head>
 
 
-	<body onload="startRoatation()">
+	<body onload="startRotation()">
 		<div class="Page">
 			<?php
 			include("common/header.html");
