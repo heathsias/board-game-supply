@@ -8,10 +8,11 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta http-equiv="refresh" content="30" />
 		<link rel="stylesheet" type="text/css" href="css/global.css" />
+		<script type="text/javascript" src="scripts/rotate.js"></script>
 	</head>
 
 
-	<body>
+	<body onload="startRoatation()">
 		<div class="Page">
 			<?php
 			include("common/header.html");
@@ -46,7 +47,7 @@
 
 					<div class="GameCategory">
 						<a href="products.php">
-		    			<img class="GameImage" src="images/ttg.jpg" alt="Tabletop Game" width="318"/>
+		    			<img id="placeholder" src="" alt="Tabletop Game" width="318"/>
 						</a>
 						<a href="products.php">Tabletop Games</a>
 					</div>
