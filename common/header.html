@@ -3,9 +3,15 @@
   <a href="index.php"><img src="images/logo_MOG3.png" alt="Merchant of Games logo" /></a>
 </div>
 
-<div id="toplinks">
-  <a class="MainLinks" href="products.php">Products</a>
-  <a class="MainLinks" href="about.php">About Us</a>
-  <a class="MainLinks" href="contact.php">Contact</a>
-  <a class="MainLinks" href="cart.php">My Cart</a>
+<div id="toplinks" onmouseout="hide()">
+  <a class="MainLinks" href="products.php" onmouseover="show('m1')">Products</a>
+  <div id="m3" onmouseover="show('m1')">
+        <a href="products.php">Table Top</a>
+        <a href="products.php">CCG's</a>
+        <a href="products.php">RPG's</a>
+        <a href="products.php">Accessories</a>
+  </div>
+  <a class="MainLinks" href="about.php" onmouseover="show('m2')">About Us</a>
+  <a class="MainLinks" href="contact.php" onmouseover="show('m3')">Contact</a>
+  <a class="MainLinks" href="cart.php" onmouseover="show('m4')">My Cart</a>
 </div>
