@@ -122,6 +122,11 @@ div#cart
   clear: both;
 }
 
+div#counter
+{
+  float: right;
+}
+
 p#aboutus
 {
   clear: both;
